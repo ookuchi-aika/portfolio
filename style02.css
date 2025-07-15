@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Edu+TAS+Beginner:wght@400..700&family=Hina+Mincho&family=Klee+One&family=M+PLUS+1:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shippori+Mincho+B1&family=Zen+Kaku+Gothic+New&display=swap");
+
+* {
+  margin: 0;
+
+  box-sizing: border-box;
+  font-family: "Aboreto", serif;
+
+  font-style: normal;
+  list-style-type: none;
+
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #4e454a;
+}
+.content-wrap {
+}
+.content-title {
+  padding: 20px 0;
+  color: #fadadd;
+  display: flex;
+  align-items: center;
+  letter-spacing: 5px;
+  font-weight: 300;
+}
+.content-title::before,
+.content-title::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: #fadadd;
+}
+.content-title::before {
+  margin-right: 1.5rem;
+}
+.contents-title::after {
+  margin-left: 1.5rem;
+}
+/* さくひん */
+.content-item-wrap {
+  width: 80%;
+  padding: 2.6rem 0;
+  margin: 0 auto;
+}
+.content-item-title {
+  color: #fadadd;
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+}
+.tool {
+  margin: 0.5rem;
+  color: #fadadd;
+  font-family: "Cormorant Infant", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.content-item-inner-wrap {
+  margin: 1.6rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-item-inner-wrap-left {
+  margin: 1.6rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.content-item-text-wrap {
+  width: 50%;
+  height: fit-content;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  color: #4e454a;
+  background-color: #ede9ea;
+  box-shadow: 0 0 1.6rem #fadadd inset;
+}
+.content-item-text {
+  margin: 1rem;
+  font-size: 1rem;
+  font-family: "Klee One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.site-link {
+  text-align: right;
+}
+.site-link a {
+  margin: 2.3rem;
+  text-decoration: none;
+  font-family: "Cormorant Infant", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.1rem;
+  color: #4e454a;
+}
+.site-link :hover {
+  color: #fff;
+  filter: drop-shadow(0 0 3px #fadadd);
+}
+
+.content-detail-wrap {
+  margin: 1rem;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #b1a0ab;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+.content-detail-title {
+  color: #8e6272;
+  width: 30%;
+  border-top: 1px solid #b1a0ab;
+  line-height: 62px;
+  text-align: center;
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+.content-detail-text {
+  width: 70%;
+  border-top: 1px solid #b1a0ab;
+  line-height: 62px;
+  text-align: left;
+  padding-left: 20%;
+  font-size: 15px;
+  font-family: "Klee One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.color-code {
+  width: 80%;
+  margin: 0 auto;
+}
+.color-code img {
+  width: 100%;
+}
+/* スクロール */
+.scroll {
+  width: 30rem;
+  height: 32em;
+  overflow: auto;
+  filter: drop-shadow(0 0 6px #b1a0a6);
+}
+.scroll .site-full-img img {
+  max-width: 100%;
+}
+.content-item-site {
+  margin: 0 auto;
+  gap: 5%;
+  letter-spacing: 2px;
+  width: 90%;
+  display: flex;
+  padding: 6%;
+}
