@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 80px;
+  cursor: url(./cur/yellow-1.cur), default;
+}
+header {
+  width: 100%;
+  display: flex;
+
+  
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.technos_eng-air a {
+  transition: 0.5s;
+}
+.technos_eng-air :hover {
+  transition: 0.5s;
+  opacity: 0.9;
+}
+.OC {
+  display: flex;
+  justify-content: center;
+}
+.oc-back {
+  position: relative;
+}
+.oc-button {
+  position: absolute;
+}
+.fix {
+  width: 200px;
+  position: fixed;
+  bottom: 5px;
+  right: 90px;
+  z-index: 1;
+}
+.fix img {
+  width: 100%;
+}
+/* .fix a {
+  filter: grayscale(100%);
+}
+.fix :hover {
+  filter: grayscale(0);
+  transition: 0.1s;
+} */
+.oc-button a {
+  filter: grayscale(100%);
+}
+.oc-button :hover {
+  filter: grayscale(0);
+  transition: 0.1s;
+}
